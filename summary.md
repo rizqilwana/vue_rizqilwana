@@ -21,3 +21,4 @@ Merupakan pencabangan dalam pembuatan GitHub yang berfungsi untuk melindungi mai
  4. Screenshoot insight bagian network
  
  
+![Screenshot (214)](https://user-images.githubusercontent.com/70480715/155282486-19a025ff-5656-414e-8cfc-bf8bc97f0c71.png)

@@ -20,5 +20,3 @@ Merupakan pencabangan dalam pembuatan GitHub yang berfungsi untuk melindungi mai
  3. Membuat dua branch sebagai penambahan fitur
  4. Screenshoot insight bagian network
  
- 
-![Screenshot (215)](https://user-images.githubusercontent.com/70480715/155283602-3fa65a2c-d02f-4598-ac13-3334c8de64ab.png)

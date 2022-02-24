@@ -55,4 +55,5 @@ etc..
 - Tentukan color pallet dari desain tersebut.
 - Menulis 3 poin dari materi yang dipelajari
  
-
+## Link Google Doc
+https://docs.google.com/document/d/1xZwfn4C9nISr0Bn5hZ4f4mlFeGQoIcah/edit?usp=sharing&ouid=110618755097366073503&rtpof=true&sd=true

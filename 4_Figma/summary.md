@@ -84,5 +84,8 @@ Merupakan editor grafik vector yang merupakan alat prototyping yang menggunakan 
 - Buat sebuah desain UI/UX dari desain yang telah kalian pilih sebelumnya menggunakan tools Figma.  
 - Buatlah prototype dari desain yang telah kalian buat.
 - Menulis 3 poin dari materi yang dipelajari.
+
+![Screenshot design Figma](https://user-images.githubusercontent.com/70480715/155686121-53e58ecc-18c6-49c4-ae3e-2078341eba1f.png)
+
  
 

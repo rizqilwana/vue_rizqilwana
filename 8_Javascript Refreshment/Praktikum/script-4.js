@@ -5,4 +5,4 @@ var bdays2 = bdays.map(function(e)
 {
     return e ;
 });
-    console.log(bdays.join(/));
+    console.log(bdays2.join(/));

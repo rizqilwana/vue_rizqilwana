@@ -6,5 +6,5 @@ var kali2 = value.map(function(e)
 {
     return e * 2 ;
 });
-    console.log(angka.join(,));
+    console.log(kali2.join(,));
 

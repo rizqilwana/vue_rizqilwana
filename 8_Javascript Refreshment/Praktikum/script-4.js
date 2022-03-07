@@ -5,4 +5,4 @@ var bdays2 = bdays.map(function(e)
 {
     return e ;
 });
-    console.log(angka.join(/));
+    console.log(bdays.join(/));

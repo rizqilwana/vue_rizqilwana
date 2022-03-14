@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+ 
+  .topnav {
+    overflow: hidden;
+  }
+  
+
+  .topnav a {
+    float: left;
+    display: block;
+    padding: 50px 179px;
+  
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+ 
+  @media screen and (max-width: 600px) (min-width: 960px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 960px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+.background-color {background-color: red;}
+.background-color2 {background-color: green;}
+.background-color3 {background-color: blue;}
+.background-color4 {background-color: yellow;}
+.background-color5 {background-color: purple;}
+.background-color6 {background-color: rgb(110, 110, 110);}

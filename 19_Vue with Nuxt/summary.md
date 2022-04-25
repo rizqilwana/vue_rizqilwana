@@ -1,6 +1,6 @@
 ## Vue with Nuxt
 ### Pengenalan Nuxt
-- HTML adalah kerangka kerja yang dibangun di atas Vue yang membuat pengembangan web menjadi sederhana dan ampuh
+- Nuxt adalah kerangka kerja yang dibangun di atas Vue yang membuat pengembangan web menjadi sederhana dan ampuh
 - Cara kerja nuxt: Instalasi aplikasi => Jalankan aplikasi
 - Untuk menjalankan aplikasi,terdapat beberapa perintah yang tertulis di script di dalam package.json
 ### Struktur Direktori Nuxt

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Operasi Aritmatika</h2>
+
+<p>Penjumlahan 2+3 dan 3+3 </p>
+<p id="penjumlahan"></p>
+<p id="penjumlahan2"></p>
+
+<p>Pengurangan 2-3 dan 3-3 </p>
+<p id="pengurangan"></p>
+<p id="pengurangan2"></p>
+
+<p>Pembagian 9/3 dan 3/3 </p>
+<p id="pembagian"></p>
+<p id="pembagian2"></p>
+
+<p>Perkalian 9x3 dan 3x3 </p>
+<p id="perkalian"></p>
+<p id="perkalian2"></p>
+
+<p>Rata-rata (3,3,4,2)</p>
+<p id="ratarata"></p>
+
+<p>Rata-rata (6,5,-7,4)</p>
+<p id="ratarata3"></p>
+
+<p>Rata-rata (3,-1,4,2,7)</p>
+<p id="ratarata2"></p>
+
+<p>Rata-rata (-18,9,3,6)</p>
+<p id="ratarata4"></p>
+
+<p>Rata-rata (12,-4,8,20)</p>
+<p id="ratarata5"></p>
+
+<p>Sisa bagi 12 dan 8</p>
+<p id="sisabagi"></p>
+
+<p>Sisa bagi 3 dan 7</p>
+<p id="sisabagi2"></p>
+
+<p>Luas persegi jika sisi 12 cm = ... cm</p>
+<p id="luaspersegi"></p>
+
+<p>Luas persegi jika sisi 6 cm = ... cm</p>
+<p id="luaspersegi2"></p>
+
+<p>Luas lingkaran jika rusuk 7 cm = ... cm</p>
+<p id="luaslingkaran"></p>
+
+<p>Luas lingkaran jika rusuk 3 cm = ... cm</p>
+<p id="luaslingkaran2"></p>
+
+<p>Luas permukaan kubus jika rusuk 9 cm = ... cm</p>
+<p id="luaspermukaankubus"></p>
+
+<p>Luas permukaan kubus jika rusuk 20 cm = ... cm</p>
+<p id="luaspermukaankubus2"></p>
+
+<p>Volume kubus jika rusuk 9 cm = ... cm</p>
+<p id="luaskubus"></p>
+
+<p>Volume kubus jika rusuk 20 cm = ... cm</p>
+<p id="luaskubus2"></p>
+
+
+
+
+<script>
+{var x = myFunction(2, 3);
+document.getElementById("penjumlahan").innerHTML = x;
+
+function myFunction(a, b) {
+  return a + b;
+}
+var x = myFunctio(3, 3);
+document.getElementById("penjumlahan2").innerHTML = x;
+
+function myFunctio(a, b) {
+  return a + b;}
+ }
+
+ {
+ var x = myFunction(2, 3);
+document.getElementById("pengurangan").innerHTML = x;
+
+function myFunction(a, b) {
+  return a - b;
+}
+var x = myFunctio(3, 3);
+document.getElementById("pengurangan2").innerHTML = x;
+
+function myFunctio(a, b) {
+  return a - b;
+  }
+ }
+
+var bilangan1 = 9;
+var bilangan2 = 3;
+var pembagian = bilangan1 / bilangan2;	
+var perkalian = bilangan1 * bilangan2;
+var luaskubus = bilangan1 * bilangan1 * bilangan1;
+var luaspermukaankubus = 6 * (bilangan1*bilangan1);
+ document.getElementById("pembagian").innerHTML = pembagian;
+ document.getElementById("perkalian").innerHTML = perkalian;
+ document.getElementById("luaskubus").innerHTML = luaskubus;
+ document.getElementById("luaspermukaankubus").innerHTML = luaspermukaankubus;
+
+
+var bilangan1 = 3;
+var bilangan2 = 3;
+var pembagian2 = bilangan1 / bilangan2;		
+var perkalian2 = bilangan1 * bilangan2;
+ document.getElementById("pembagian2").innerHTML = pembagian2;	
+ document.getElementById("perkalian2").innerHTML = perkalian2;
+
+var bilangan1 = 3;
+var bilangan2 = 3;
+var bilangan3 = 4;
+var bilangan4 = 2;
+var ratarata = (bilangan1 + bilangan2 + bilangan3 + bilangan4)/4;
+ document.getElementById("ratarata").innerHTML = ratarata;
+
+var bilangan1 = 6;
+var bilangan2 = 5;
+var bilangan3 = -7;
+var bilangan4 = 4;
+var ratarata3 = (bilangan1 + bilangan2 + bilangan3 + bilangan4)/4;
+var luaspersegi2= bilangan1 * bilangan1;
+ document.getElementById("ratarata3").innerHTML = ratarata3;
+ document.getElementById("luaspersegi2").innerHTML = luaspersegi2;
+
+var bilangan1 = -18;
+var bilangan2 = 9;
+var bilangan3 = 3;
+var bilangan4 = 6;
+var ratarata4 = (bilangan1 + bilangan2 + bilangan3 + bilangan4)/4;
+ document.getElementById("ratarata4").innerHTML = ratarata4;
+
+var bilangan1 = 12;
+var bilangan2 = -4;
+var bilangan3 = 8;
+var bilangan4 = 20;
+var luaskubus2 = bilangan4 * bilangan4 * bilangan4;
+var ratarata5 = (bilangan1 + bilangan2 + bilangan3 + bilangan4)/4;
+var sisabagi= bilangan1 % bilangan3;
+var luaspersegi= bilangan1 * bilangan1;
+var luaspermukaankubus2 = 6 * (bilangan4*bilangan4);
+ document.getElementById("ratarata5").innerHTML = ratarata5;
+ document.getElementById("sisabagi").innerHTML = sisabagi;
+ document.getElementById("luaspersegi").innerHTML = luaspersegi;
+ document.getElementById("luaskubus2").innerHTML = luaskubus2;
+ document.getElementById("luaspermukaankubus2").innerHTML = luaspermukaankubus2;
+
+ 
+var bilangan1 = 3;
+var bilangan2 = -1;
+var bilangan3 = 4;
+var bilangan4 = 2;
+var bilangan5 = 7;
+var ratarata2 = (bilangan1 + bilangan2 + bilangan3 + bilangan4 + bilangan5)/5;
+var sisabagi2= bilangan1 % bilangan5;
+var luaslingkaran = 22/7 * (bilangan5*bilangan5);
+var luaslingkaran2 = 22/7 * (bilangan1*bilangan1);
+ document.getElementById("ratarata2").innerHTML = ratarata2;
+ document.getElementById("sisabagi2").innerHTML = sisabagi2;
+ document.getElementById("luaslingkaran").innerHTML = luaslingkaran;
+document.getElementById("luaslingkaran2").innerHTML = luaslingkaran2;
+
+</script>
+
+</body>
+</html>
